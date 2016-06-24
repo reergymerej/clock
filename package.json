@@ -1,9 +1,12 @@
 {
   "name": "reergymerej-clock",
   "main": "./lib/clock",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "displays a clock in the footer",
-  "keywords": ["clock", "time"],
+  "keywords": [
+    "clock",
+    "time"
+  ],
   "activationCommands": {
     "atom-workspace": "clock:toggle"
   },
