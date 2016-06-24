@@ -1,0 +1,20 @@
+{
+  "name": "clock",
+  "main": "./lib/clock",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "clock:toggle"
+  },
+  "repository": "https://github.com/atom/clock",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.13.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}

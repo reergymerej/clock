@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle clock",
+        "command": "clock:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "clock",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "clock:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
